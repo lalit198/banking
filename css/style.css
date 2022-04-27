@@ -1,0 +1,111 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+
+.main_container{
+    width: 100%;
+    min-height: 100vh;
+    background: #50BFBF;
+}
+
+/*----------------------- SIGNUP FORM CODE START -------------------------------*/
+.parent_regform_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.regform_container{
+    background: hsla(0,0%,100%,.21);
+    border-radius: 35px;
+    position: relative;
+    padding: 0;
+    z-index: 2;
+    width: 40%;
+    margin: 0 418px;
+    /* padding-top: 10rem; */
+}
+.reg_form_img{
+    position: absolute;
+    top: -4.6rem;
+    right: 0;
+    width: 6.88rem;
+    height: 6.26rem;
+    background: url(../images/login_3.ad7f785.png) no-repeat 50%;
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+    z-index: 3;
+}
+.reg_form_title{
+    margin: 0;
+    padding: 2rem 0 2rem 4rem;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: .53rem;
+    font-weight: 700;
+    color: #FFF;
+}
+.reg_form_box{
+    margin: auto;
+    padding: 0 26px;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 2rem 3rem 2rem 3rem;;
+}
+
+.form_bottom_text{
+    text-align: center;
+}
+.form_bottom{
+    width: 100%;
+    text-align: center;
+}
+
+.login_reg{
+  background: #85BF48;
+  border: 1px solid #85BF48;
+  color: #FFF;
+  text-align: center;
+  padding: .6rem 2.5rem .6rem 2.5rem;
+  font-weight: 600;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.login_reg:hover{
+    background: #248E38;
+    text-decoration: none;
+}
+.reg_form_box .form-group{
+    margin: 1.6rem 0;
+}
+.reg_form_box .form-group input{
+    height: 2.6rem;
+    width: 100%;
+    font-size: .9rem;
+    line-height: .87rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    border-radius: 0;
+    color: #3a3a3a;
+}
+.reg_form_box .form-group textarea{
+    font-size: .9rem;
+    line-height: .87rem;
+    outline: none;
+    border: none;
+    border: 1px solid #d8d8d8;
+}
+.form-group input:focus, .form-group textarea:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+.thanku_text{
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #145DA0;
+    font-size: .95rem;
+    font-weight: 600;
+}
+/*----------------------- SIGNUP FORM CODE END -------------------------------*/
+
+
