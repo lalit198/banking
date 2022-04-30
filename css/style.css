@@ -108,4 +108,9 @@ li{list-style: none;}
 }
 /*----------------------- SIGNUP FORM CODE END -------------------------------*/
 
-
+/*----------------------- MOBILE DEVICE CODE START ------------------*/
+@media (max-width: 1020px) {
+    .regform_container{
+        width: 95%;
+    }
+}
